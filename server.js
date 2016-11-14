@@ -24,7 +24,7 @@ app.use('/profile',stormpath.loginRequired,require('./profile')());
 
 
 app.on('stormpath.ready',function(){
-  console.log('Hey, Sarah, Stormpath is ready on port 3000.');
+  console.log('Hey, your Stormpath App is ready on port 3000.');
 });
 
 
